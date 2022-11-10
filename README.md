@@ -15,3 +15,9 @@ Sub-plan:
 
 Done so far:
 - Two_qubits works only for the real weights with scipy
+
+
+Problems to be solved:
+Check if everywhere down spins is -1 and not zero
+Not working for complex valued weights
+Check if energy is good, complex conjugate was wrong, energy is still complex valued
