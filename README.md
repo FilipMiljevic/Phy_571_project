@@ -1,5 +1,9 @@
 # Phy_571_project
 
+File two spins works more or less fine for real coefficients
+File two spins complex w works well when coefficients are real and produces weird results when the weights are complex
+
+
 Plan:
 1. Solve ground state for 2 spins
 2. Solve ground state for N spins
