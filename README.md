@@ -2,13 +2,16 @@
 
 Plan:
 1. Solve ground state for 2 spins
+2. Solve ground state for N spins
+3. So far scipy.optimize.minimize, use more efficient method
 
 Sub-plan:
-1. Define wave function
-2. Define Hamiltonian
-3. Define Energy
-4. Define gradient descent step
-5. Apply gradient descent to find psi
+1:
+- Solve for real network weights
+- Solve for complex network weights
+- Exact solution
+- Solve with netket
+- Visualization
 
-
-Two_qubits works only for the real weights for now
+Done so far:
+- Two_qubits works only for the real weights with scipy
