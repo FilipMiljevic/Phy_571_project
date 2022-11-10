@@ -9,3 +9,6 @@ Sub-plan:
 3. Define Energy
 4. Define gradient descent step
 5. Apply gradient descent to find psi
+
+
+Two_qubits works only for the real weights for now
