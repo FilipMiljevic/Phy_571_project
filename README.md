@@ -21,3 +21,4 @@ Problems to be solved:
 Check if everywhere down spins is -1 and not zero
 Not working for complex valued weights
 Check if energy is good, complex conjugate was wrong, energy is still complex valued
+Make sure everything is an array and not a tupple
