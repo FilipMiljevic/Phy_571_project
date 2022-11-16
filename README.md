@@ -1,28 +1,18 @@
 # Phy_571_project
 
-File two spins works more or less fine for real coefficients
-File two spins complex w works well when coefficients are real and produces weird results when the weights are complex
-
+N_spins works well, but the results were not compared to the theoretical prediction
 
 Plan:
-1. Solve ground state for 2 spins
-2. Solve ground state for N spins
-3. So far scipy.optimize.minimize, use more efficient method
+1. Calculate by hand 2 spin system and compare with the results of the simulation
+2. Make a class that generates Hamiltonian for the N-spin system and compare with the results
 
 Sub-plan:
 1:
-- Solve for real network weights
-- Solve for complex network weights
 - Exact solution
 - Solve with netket
 - Visualization
 
-Done so far:
-- Two_qubits works only for the real weights with scipy
+# N_spins
 
-
-Problems to be solved:
-Check if everywhere down spins is -1 and not zero
-Not working for complex valued weights
-Check if energy is good, complex conjugate was wrong, energy is still complex valued
-Make sure everything is an array and not a tupple
+Input is a hamiltonian (input is a wave funciton and output a wave function after the application of the hamiltonian), and number of spins in the chain
+Searches for the wavefunction that gives the lowest energy
