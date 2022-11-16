@@ -14,5 +14,6 @@ Sub-plan:
 
 # N_spins
 
-Input is a hamiltonian (input is a wave funciton and output a wave function after the application of the hamiltonian), and number of spins in the chain
+Input is a hamiltonian (input is a wave funciton and output a wave function after the application of the hamiltonian), and number of spins in the chain.
+
 Searches for the wavefunction that gives the lowest energy
