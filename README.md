@@ -17,3 +17,9 @@ Sub-plan:
 Input is a hamiltonian (input is a wave funciton and output a wave function after the application of the hamiltonian), and number of spins in the chain.
 
 Searches for the wavefunction that gives the lowest energy
+
+# 2 Spins
+
+Complte file with computation of energy for system of two spins: exact solution, solution using gradient descent method and usinf stochastic approach.
+The spin correelation for the system is also computed to test if the algorithmic solution meets the physical expectations.
+Computation of correlation between the distribution of accepted spins and the corresponding weight |Ψ_M|^2 for 2 spins is included.
