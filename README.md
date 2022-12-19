@@ -1,5 +1,12 @@
 # Phy_571_project
 
+# Final description
+
+Main file we use is N_spins. It consists of the three sections. First one solves the ground state of the N-spin system. Second section computes the spin correlation function. The third section implements the stochastic energy and attempts to solve the system using it.
+
+
+# Drafts
+
 N_spins works well, but the results were not compared to the theoretical prediction
 
 Plan:
