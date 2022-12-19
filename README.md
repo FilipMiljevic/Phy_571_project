@@ -4,6 +4,8 @@
 
 Main file we use is N_spins. It consists of the three sections. First one solves the ground state of the N-spin system. Second section computes the spin correlation function. The third section implements the stochastic energy and attempts to solve the system using it.
 
+bm-physical-values.ipynb is used for part of the data analysis
+
 
 # Drafts
 
